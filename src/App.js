@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
+import Index from  "./index";
 import HomePage from "./pages/HomePage";
 import Enquiry from "./pages/Enquiry";
 import Contact from "./pages/Contact";
@@ -25,6 +25,7 @@ function App() {
               <Route path="/enquiry" element={<Enquiry />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/about" element={<About />} />
+            <Route path="/index" element={<index />} />
             </Routes>
           </main>
 

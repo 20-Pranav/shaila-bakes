@@ -13,18 +13,6 @@ export default function Home() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
-        <Navbar />
-
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/enquiry" element={<EnquiryPage />} />
-            <Route path="/contact" element={<ContactPage />} />
-            <Route path="/about" element={<AboutPage />} />
-          </Routes>
-        </main>
-
-        <Footer />
       </div>
     </Router>
   );
